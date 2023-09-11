@@ -2,13 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"hello-world/pkg/config"
-	"hello-world/pkg/handlers"
-	"hello-world/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+
+	"github.com/moto3z/go-booki/pkg/config"
+	"github.com/moto3z/go-booki/pkg/handlers"
+	"github.com/moto3z/go-booki/pkg/render"
 )
 
 const portNumber = ":8080"

@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"hello-world/pkg/config"
-	"hello-world/pkg/models"
-	"hello-world/pkg/render"
 	"net/http"
+
+	"github.com/moto3z/go-booki/pkg/config"
+	"github.com/moto3z/go-booki/pkg/models"
+	"github.com/moto3z/go-booki/pkg/render"
 )
 
 // Repo the repository used by the handlers

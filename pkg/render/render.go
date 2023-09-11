@@ -3,12 +3,13 @@ package render
 import (
 	"bytes"
 	"fmt"
-	"hello-world/pkg/config"
-	"hello-world/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/moto3z/go-booki/pkg/config"
+	"github.com/moto3z/go-booki/pkg/models"
 )
 
 var functions = template.FuncMap{}

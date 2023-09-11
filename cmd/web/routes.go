@@ -2,11 +2,12 @@ package main
 
 import (
 	//"github.com/bmizerany/pat"
+	"net/http"
+
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"hello-world/pkg/config"
-	"hello-world/pkg/handlers"
-	"net/http"
+	"github.com/moto3z/go-booki/pkg/config"
+	"github.com/moto3z/go-booki/pkg/handlers"
 )
 
 func routes(app *config.AppConfig) http.Handler {
